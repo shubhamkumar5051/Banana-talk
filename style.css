@@ -6,4 +6,26 @@ button {
     border: 1px solid black;
     margin: 16px;
     width: 6rem;
+    display: block;
+}
+textarea
+{
+    width: 32vh;
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#output
+{
+    width: 32vh;
+    height: 10vh;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+}
+.txtPara
+{
+    font-size: larger;
+    margin: 16px;
 }
