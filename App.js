@@ -1,6 +1,9 @@
 var btnRefer = document.querySelector("#btnClick");
 var txtInput = document.querySelector("#textStory");
-btnRefer.addEventListener("click", function clicked() {
-  console.log(txtInput.value);
-  console.log("Submitted");
-});
+var outputDiv = document.querySelector("#output");
+
+function clickHandler() {
+  outputDiv.innerHTML = "Translated : dfhgkjdfhkghdkl " + txtInput.value;
+};
+
+btnRefer.addEventListener("click", clickHandler);

@@ -29,3 +29,11 @@ textarea
     font-size: larger;
     margin: 16px;
 }
+
+h1{
+    color: rgb(50, 50, 218);
+    margin: 1rem;
+    width: 32vh;
+    background-color: rgb(235, 230, 223);
+    padding: 1rem;
+}
