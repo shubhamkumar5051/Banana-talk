@@ -1,39 +1,42 @@
+
 button {
     padding: 8px;
     border-radius: 1rem;
     color: black;
-    background-color: white;
+    background-color: rgb(224, 210, 89);
     border: 1px solid black;
     margin: 16px;
-    width: 6rem;
+    width: 10rem;
     display: block;
 }
-textarea
-{
+
+textarea {
     width: 32vh;
     height: 10vh;
     margin: 1rem;
     padding: 1rem;
+    
 }
 
-#output
-{
+#output {
     width: 32vh;
     height: 10vh;
     border: 1px solid black;
     margin: 1rem;
     padding: 1rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
-.txtPara
-{
+
+.txtPara {
     font-size: larger;
     margin: 16px;
 }
 
-h1{
+h1 {
     color: rgb(50, 50, 218);
     margin: 1rem;
     width: 32vh;
-    background-color: rgb(235, 230, 223);
+    background-color: rgb(224, 210, 89);
     padding: 1rem;
 }
