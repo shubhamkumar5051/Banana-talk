@@ -1,8 +1,9 @@
 * {
     font-family: 'Otomanopee One', sans-serif;
     margin: 0;
-    padding: 0; box-sizing: border-box;
-   
+    padding: 0;
+    box-sizing: border-box;
+
 }
 
 button {
@@ -12,8 +13,9 @@ button {
     background-color: rgb(122, 245, 129);
     border: 1px solid black;
     margin: 16px 0px;
-    width: 10rem;
+    width: 100%;
     display: block;
+   
 
 }
 
@@ -55,9 +57,7 @@ h1 {
     padding: 1rem;
     text-align: center;
     height: 7rem;
-    box-sizing: border-box;
     font-family: 'Tourney', cursive;
-    
     font-size: 2.5rem;
 
 }
@@ -69,7 +69,7 @@ footer {
     height: 100%;
     box-sizing: border-box;
     padding-bottom: 20px;
-   
+
 }
 
 footer div {
@@ -78,9 +78,10 @@ footer div {
     margin-top: 50px;
     min-height: 10vh;
     max-height: 20vh;
-     padding-top: 16px;
+    padding-top: 16px;
 }
-footer p{
+
+footer p {
     width: 45%;
     margin: auto;
     box-sizing: border-box;
@@ -92,5 +93,12 @@ footer p{
     margin: auto;
     box-sizing: border-box;
     font-size: x-large;
-   
+
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(38, 136, 43);
+    cursor: pointer;
+
 }
