@@ -6,28 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tourney&display=swap" rel="stylesheet">
+
     <title>Banana App</title>
 </head>
 
 <body>
     <header>
         <h1>The Swedish chef Speak</h1>
-              <!-- <div>
+
+    </header>
+
+
+    <main>
+        <div id="bodyContent">
+            <textarea name="story" id="textStory" cols="40" rows="6"
+                placeholder="Put your message here which You want to convert in Swedish"></textarea>
+            <button id="btnClick">
+                Translate
+            </button>
+            <div class="txtPara">
+                <p> Output will be here 👇</p>
+            </div>
+            <div id="translate-output" style="padding: 1rem; font-size: large;"></div>
+        </div>
+
+    </main>
+
+    <footer>
+
+
+        <div style="font-size:xx-large;">
+            About
+        </div>
+        <p>
             Convert from English to Swedish chef Speak. The Swedish Chef is a Muppet character that appeared on The
             Muppet Show. The Swedish Chef does not speak any known language, but his nonsense words are so widley
             interpreted as Swedish-sounding. So try converting and see what our chef says...bork, bork, bork!
+        </p>
 
-        </div> -->
-    </header>
-    <textarea name="story" id="textStory" cols="40" rows="6" placeholder="Enter you Text Here"></textarea>
-    <button id="btnClick">
-        Translate
-    </button>
-    <div class="txtPara">
-        Output will be here 👇
-    </div>
-    <div id="output">
-    </div>
+    </footer>
     <script type="text/javascript" src="App.js"></script>
 </body>
 
